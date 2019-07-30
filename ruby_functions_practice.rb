@@ -55,3 +55,11 @@ end
 def volume_of_cube(length)
   return length ** 3
 end
+
+def volume_of_sphere(volume)
+  return (4/3.0 * 22/7 * volume ** 3).round
+end
+
+def fahrenheit_to_celsius(temp)
+  return (temp - 32) * 5/9
+end
